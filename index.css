@@ -1,0 +1,105 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+table {
+  margin-left: 150px;
+}
+
+.title {
+  color: rgb(36, 27, 27);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.267);
+  box-shadow: 5px 10px 20px 10px #e0e0e0;
+  border: 1px solid rgb(214, 212, 212);
+  height: 400px;
+}
+
+.header {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.card-data {
+  font-size: medium;
+  margin: 10px;
+  margin-top: 20px;
+  float: left;
+}
+
+.categoria {
+  color: gray;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.valore {
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.bottone {
+  padding-top: 250;
+  text-align: center;
+}
+
+.viewmore {
+  border: 3px solid #9d203c;
+  color: #9d203c;
+  width: 85%;
+  height: 60px;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 130px;
+  position: -webkit-sticky; /* for Safari users */
+  margin-left: -7px;
+  margin-top: -7px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.541);
+  position: fixed;
+  text-align: center;
+  border-right: 1px solid rgb(214, 212, 212);
+  box-shadow: 5px 20px 40px #e0e0e0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 28;
+  margin-top: 25;
+  margin-bottom: 25;
+}
+hr {
+  width: 85%;
+}
+
+.menu {
+  width: 100%;
+  border-bottom: 1px solid rgba(214, 212, 212, 0.849);
+  margin-left: 122px;
+  background: white;
+  margin-top: -7;
+  padding-bottom: 41;
+  margin-bottom: 20px;
+  box-shadow: 1px 20px 40px #e0e0e0;
+}
+
+.menu .item {
+  display: inline-block;
+  margin-left: 70px;
+}
+.menu .item a {
+  color: #333333;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}

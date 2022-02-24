@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <script src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
@@ -18,11 +19,21 @@
       <nav class="menu">
         <ul>
           <li class="item selected">
-            <a href="/restaurant.html">MENU 1</a>
+            <a href="/restaurant.html" class="selected">MENU 1</a>
           </li>
           <li class="item"><a href="/flight.html">MENU 2</a></li>
           <li class="item"><a href="/places.html">MENU 3</a></li>
-        </ul>
+          <li class="item" >
+            
+            
+            
+            <img id = "b" onclick="burger()" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg">
+          </li>
+        
+          <!---->
+        
+          </ul>
+
       </nav>
 
       <!-- fine Barra di Navigation -->
@@ -61,8 +72,8 @@
                 <span class="valore">Visa</span>
               </div>
 
-              <div class="bottone">
-                <button class="viewmore">View more</button>
+              <div class="bottone" >
+                <button   class="viewmore" id="#1" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>
@@ -103,7 +114,7 @@
               </div>
 
               <div class="bottone">
-                <button class="viewmore">View more</button>
+                <button class="viewmore"id="#2" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>
@@ -142,126 +153,7 @@
               </div>
 
               <div class="bottone">
-                <button class="viewmore">View more</button>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="card">
-            <div class="header">
-              <span class="title">Lorem ipsum dolorit</span>
-            </div>
-            <div class="container">
-              <div class="card-data">
-                <label class="categoria"> Nome </label>
-                <br />
-                <span class="valore">Michelle Lin</span>
-                <br />
-                <br />
-                <label class="categoria"> Birthdate </label>
-                <br />
-                <span class="valore">25/06/2003</span>
-                <br />
-                <br />
-                <label class="categoria"> Telephone </label>
-                <br />
-                <span class="valore">3663766853</span>
-              </div>
-              <!--separatore del container in 2-->
-              <div class="card-data">
-                <label class="categoria"> Address </label>
-                <br />
-                <span class="valore">Via casa del boss</span>
-                <br />
-                <br />
-                <label class="categoria"> Credit Card </label>
-                <br />
-                <span class="valore">Visa</span>
-              </div>
-
-              <div class="bottone">
-                <button class="viewmore">View more</button>
-              </div>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card">
-            <div class="header">
-              <span class="title">Lorem ipsum dolorit</span>
-            </div>
-            <div class="container">
-              <div class="card-data">
-                <label class="categoria"> Nome </label>
-                <br />
-                <span class="valore">Michelle Lin</span>
-                <br />
-                <br />
-                <label class="categoria"> Birthdate </label>
-                <br />
-                <span class="valore">25/06/2003</span>
-                <br />
-                <br />
-                <label class="categoria"> Telephone </label>
-                <br />
-                <span class="valore">3663766853</span>
-              </div>
-              <!--separatore del container in 2-->
-              <div class="card-data">
-                <label class="categoria"> Address </label>
-                <br />
-                <span class="valore">Via casa del boss</span>
-                <br />
-                <br />
-                <label class="categoria"> Credit Card </label>
-                <br />
-                <span class="valore">Visa</span>
-              </div>
-
-              <div class="bottone">
-                <button class="viewmore">View more</button>
-              </div>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="card">
-            <div class="header">
-              <span class="title">Lorem ipsum dolorit</span>
-            </div>
-            <div class="container">
-              <div class="card-data">
-                <label class="categoria"> Nome </label>
-                <br />
-                <span class="valore">Michelle Lin</span>
-                <br />
-                <br />
-                <label class="categoria"> Birthdate </label>
-                <br />
-                <span class="valore">25/06/2003</span>
-                <br />
-                <br />
-                <label class="categoria"> Telephone </label>
-                <br />
-                <span class="valore">3663766853</span>
-              </div>
-              <!--separatore del container in 2-->
-              <div class="card-data">
-                <label class="categoria"> Address </label>
-                <br />
-                <span class="valore">Via casa del boss</span>
-                <br />
-                <br />
-                <label class="categoria"> Credit Card </label>
-                <br />
-                <span class="valore">Visa</span>
-              </div>
-
-              <div class="bottone">
-                <button class="viewmore">View more</button>
+                <button class="viewmore"id="#3" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>
@@ -302,7 +194,7 @@
               </div>
 
               <div class="bottone">
-                <button class="viewmore">View more</button>
+                <button class="viewmore"id="#4" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>
@@ -341,7 +233,7 @@
               </div>
 
               <div class="bottone">
-                <button class="viewmore">View more</button>
+                <button class="viewmore"id="#5" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>
@@ -380,7 +272,126 @@
               </div>
 
               <div class="bottone">
-                <button class="viewmore">View more</button>
+                <button class="viewmore"id="#6" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <div class="header">
+              <span class="title">Lorem ipsum dolorit</span>
+            </div>
+            <div class="container">
+              <div class="card-data">
+                <label class="categoria"> Nome </label>
+                <br />
+                <span class="valore">Michelle Lin</span>
+                <br />
+                <br />
+                <label class="categoria"> Birthdate </label>
+                <br />
+                <span class="valore">25/06/2003</span>
+                <br />
+                <br />
+                <label class="categoria"> Telephone </label>
+                <br />
+                <span class="valore">3663766853</span>
+              </div>
+              <!--separatore del container in 2-->
+              <div class="card-data">
+                <label class="categoria"> Address </label>
+                <br />
+                <span class="valore">Via casa del boss</span>
+                <br />
+                <br />
+                <label class="categoria"> Credit Card </label>
+                <br />
+                <span class="valore">Visa</span>
+              </div>
+
+              <div class="bottone">
+                <button class="viewmore"id="#7" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <div class="header">
+              <span class="title">Lorem ipsum dolorit</span>
+            </div>
+            <div class="container">
+              <div class="card-data">
+                <label class="categoria"> Nome </label>
+                <br />
+                <span class="valore">Michelle Lin</span>
+                <br />
+                <br />
+                <label class="categoria"> Birthdate </label>
+                <br />
+                <span class="valore">25/06/2003</span>
+                <br />
+                <br />
+                <label class="categoria"> Telephone </label>
+                <br />
+                <span class="valore">3663766853</span>
+              </div>
+              <!--separatore del container in 2-->
+              <div class="card-data">
+                <label class="categoria"> Address </label>
+                <br />
+                <span class="valore">Via casa del boss</span>
+                <br />
+                <br />
+                <label class="categoria"> Credit Card </label>
+                <br />
+                <span class="valore">Visa</span>
+              </div>
+
+              <div class="bottone">
+                <button class="viewmore"id="#8" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card">
+            <div class="header">
+              <span class="title">Lorem ipsum dolorit</span>
+            </div>
+            <div class="container">
+              <div class="card-data">
+                <label class="categoria"> Nome </label>
+                <br />
+                <span class="valore">Michelle Lin</span>
+                <br />
+                <br />
+                <label class="categoria"> Birthdate </label>
+                <br />
+                <span class="valore">25/06/2003</span>
+                <br />
+                <br />
+                <label class="categoria"> Telephone </label>
+                <br />
+                <span class="valore">3663766853</span>
+              </div>
+              <!--separatore del container in 2-->
+              <div class="card-data">
+                <label class="categoria"> Address </label>
+                <br />
+                <span class="valore">Via casa del boss</span>
+                <br />
+                <br />
+                <label class="categoria"> Credit Card </label>
+                <br />
+                <span class="valore">Visa</span>
+              </div>
+
+              <div class="bottone">
+                <button class="viewmore"id="#9" onclick="linkone(this.id)" onmouseover="sopra(this.id)" onmouseout="nonsopra(this.id)">View more</button>
               </div>
             </div>
           </div>

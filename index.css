@@ -84,17 +84,16 @@ hr {
 
 .menu {
   width: 100%;
-  border-bottom: 1px solid rgba(214, 212, 212, 0.849);
   margin-left: 122px;
   background: white;
   margin-top: -7;
-  padding-bottom: 41;
-  margin-bottom: 20px;
+  padding-bottom: 42;
+  margin-bottom: 40px;
   box-shadow: 1px 20px 40px #e0e0e0;
 }
 
 .menu .item {
-  display: inline-block;
+  display: inline-flex;
   margin-left: 70px;
 }
 .menu .item a {
@@ -102,4 +101,31 @@ hr {
   font-size: 1rem;
   text-decoration: none;
   font-weight: bold;
+}
+.menu .item a.selected {
+  border-bottom: 1px solid red;
+}
+img {
+  display: none;
+}
+@media (max-width: 750px) {
+  .sidebar {
+    display: none;
+  }
+  table {
+    margin-left: 0px;
+  }
+  .menu {
+    margin-left: -7px;
+    width: 100%;
+    border: 0px solid #333333;
+    padding-bottom: 20px;
+  }
+  .item a:not(.selected) {
+    display: none;
+  }
+  img {
+    margin-left: 10px;
+    display: block;
+  }
 }

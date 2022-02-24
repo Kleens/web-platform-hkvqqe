@@ -7,3 +7,7 @@ function sopra(xyz) {
 function nonsopra(xyz) {
   document.getElementById(xyz).style.backgroundColor = 'white';
 }
+
+function burger() {
+  document.createElement('ul');
+}
